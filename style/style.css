@@ -1,0 +1,444 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/*? <<>> Overall WebSite CSS Effects or Universal Selectot {Start }  <<>> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    border-style: none;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+ /* header section */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+.nevbar {
+    padding: 50px 240px 116px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nevbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+nav ul {
+    display: flex;
+    gap: 78px;
+}
+nav ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
+.banner {
+    padding: 0 240px;
+    padding-bottom: 45px;
+}
+.banner-content {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.banner-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.banner-discription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 35px 0 35px 0;
+}
+.btn-primary {
+    padding: 20px 25px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+/* feather section start */
+.feature {
+    margin: 85px 301px 130px 301px;
+    display: flex;
+    gap: 75px;
+}
+.image-gallary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.feature-content {
+    margin: auto 0;
+}
+.feature-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.feature-title .black-color {
+    color: #131313;
+}
+.feature-title .orrange-color {
+    color: #FF900E;
+}
+.feature-description {
+    padding: 25px 0 33px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/* love section */
+.love-enjoy {
+    margin: 0 240px;
+    display: flex;
+    gap: 146px;
+}
+.love-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.love-description {
+    margin: 24px 0 20px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.love-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 33px;
+    margin-top: 20px;
+}
+.love-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 12px;
+}
+.love-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+ 
+.love-enjoy-img {
+    position: relative;
+}
+
+.year {
+    position: absolute;
+    left: 867px;
+    top: 3152px;
+    left: -104px;
+    top: 873px;
+    width: 342px;
+    height: 200px;
+    padding: 45px 42px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+.year h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.year p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* some section */
+.some-facts {
+    margin: 130px 290px;
+}
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding: 30px 0 100px 0;
+}
+.some-fact-items {
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+}
+.some-fact-item {
+    width: 241.83px;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: ease 0.5s;
+}
+.some-fact-item:hover {
+    background-color: #FF900E;
+    color: white !important;
+    box-shadow: 30px 25px 38px -1px rgba(255, 144, 14, 0.33);
+    -webkit-box-shadow: 30px 25px 38px -1px rgba(255, 144, 14, 0.33);
+    -moz-box-shadow: 30px 25px 38px -1px rgba(255, 144, 14, 0.33);
+}
+.some-fact-item h1 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding: 10px 0;
+}
+.some-fact-item p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+ /* sponser section */
+.sponsor {
+    margin: 0 240px 130px 240px;
+}
+.sponsor-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding-bottom: 25px;
+}
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.sponsor-logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsor-logo img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+ /* artch section */
+.what-arch {
+    padding: 0 240px 50px 240px;
+    background: #FF900E;
+    color: white;
+    display: flex;
+    gap: 60px;
+}
+.arch-content {
+    margin: auto 0;
+}
+.arch-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+.arch-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.arch-img {
+    padding-top: 50px;
+}
+
+/* footer section */
+footer {
+    margin: 70px 240px 70px 240px;
+}
+footer p {
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 38px 400px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+/* footer section end */
+/* only for mobile */
+@media screen and (min-width:320px) and (max-width:688px) {
+   
+    .nevbar {
+        padding: 31px 0;
+        flex-direction: column;
+    }
+    .nevbar-brand {
+        font-size: 30px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+  
+    /*? <> Banner Section mobile responsive Start  <> */
+    .banner {
+        padding: 20px 0;
+        padding-top: 30px;
+    }
+    .banner-title {
+        font-size: 40px;
+        line-height: 1;
+    }
+    .banner-discription {
+        font-size: 16px;
+        font-style: normal;
+        line-height: 25px;
+        padding: 35px 30px 35px 30px;
+    }
+    .banner-img img {
+        width: 100%;
+        padding: 0 15px 0 15px;
+    }
+   
+    .feature {
+        margin: 31px 0 60px 0;
+        flex-direction: column;
+    }
+    .image-gallary {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+    .image-gallary img {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .love-enjoy {
+        margin: 0;
+        margin-top: 95px;
+        flex-direction: column;
+        gap: 50px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    .love-img {
+        width: 100%;
+    }
+
+    .year {
+        left: 122px;
+        top: 5253px;
+        left: 86px;
+        top: 544px ;
+        width: 320px;
+        height: 181px;
+        padding: 32px 24px;
+
+    }
+
+
+    .some-fact-content {
+        text-align: center;
+    }
+    .fact-description {
+        padding-bottom: 40px;
+    }
+    .some-facts {
+        margin: 100px 0;
+    }
+    .fact-title {
+        font-size: 35px;
+    }
+    .some-fact-items {
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+ 
+    .sponsor {
+        margin: 0 0 130px 0;
+    }
+    .sponsor-logo {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 54px;
+        grid-row-gap: 20px;
+    }
+  
+    .what-arch {
+        padding: 0 0 50px 0;
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    .arch-img {
+        padding-top: 35px;
+    }
+    .arch-img img {
+        width: 100%;
+    }
+    
+    footer {
+        margin: 25px 0 25px 0;
+    }
+    footer p {
+        text-align: center;
+        padding: 35px 53px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #424242;
+        line-height: 1.5;
+    }
+
+}
+
+
+    
+
+/* :end */
